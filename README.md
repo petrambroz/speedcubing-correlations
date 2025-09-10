@@ -1,6 +1,7 @@
 # Event correlations in speedcubing
 
 A short project that analyzes correlations between WCA events (3x3, 4x4, blindfolded events, big cubes, etc.) using official WCA results. The analysis and visualizations are contained in the notebook [speedcubing-correlation.ipynb](speedcubing-correlation.ipynb).
+You can also view the HTML export [here](https://petrambroz.github.io/speedcubing-correlations/).
 
 Prerequisites
 - curl
@@ -16,7 +17,7 @@ or
 ```bash
 ./download-and-extract-data.sh
 ```
-- The script will overwrite the files in data if they already exist.
+- The script will overwrite files in *data* directory if they already exist.
 - If you plan to run the notebook, create and activate a Python virtual environment and install dependencies:
 ```bash
 python -m venv .venv
