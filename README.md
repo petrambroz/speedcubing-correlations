@@ -11,7 +11,7 @@ Prerequisites
 
 ## How to download the latest WCA data
 ```bash
-   bash download-and-extract-data.sh
+bash download-and-extract-data.sh
 ```
 or
 ```bash
